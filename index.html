@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рисование на Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <input type="color" id="color-picker" value="#000000">
+    <input type="number" id="brush-size" value="5" min="1" max="50">
+    <button id="clear-canvas">Очистить</button>
+    <button id="save-drawing">Сохранить</button>
+    <button id="add-text">Добавить текст</button>
+  </div>
+  <canvas id="drawing-canvas" width="800" height="600"></canvas>
+  <script src="app.js"></script>
+
+  <footer><h3>Вверсия 0.1</h3></footer>
+</body>
+</html>
